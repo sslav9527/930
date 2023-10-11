@@ -2,8 +2,8 @@ const os = require('os');
 const http = require('http');
 const { spawn } = require('child_process');
 
-process.env.NEZHA_SERVER = "nz.f4i.cn:5555";
-process.env.NEZHA_KEY = "tkKHKi5piddSKFLq7F";
+process.env.NEZHA_SERVER = "nezha.sslav.eu.org:5555";
+process.env.NEZHA_KEY = "LjYte2vHQ9xIPntYnL";
 const port= process.env.PORT||3000;
 
 // 运行哪吒
